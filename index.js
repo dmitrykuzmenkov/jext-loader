@@ -1,10 +1,11 @@
+var LoaderUtils = require("loader-utils");
 var DOMParser = require('xmldom').DOMParser;
 var Compile = require('jext/compile');
 
 var Parser = new DOMParser();
 module.exports = function (content) {
   this.cacheable();
-  var name = loaderUtils.interpolateName(this, "[name]", {content: content});
+  var name = LoaderUtils.interpolateName(this, "[name]", {content: content});
 
   var pool = {};
   new Compile(Parser.parseFromString(content), pool).build(file.split('.')[0]);
