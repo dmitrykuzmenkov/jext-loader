@@ -1,6 +1,6 @@
 {
   "name": "jext-loader",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "JEXT loader for webpack",
   "main": "index.js",
   "scripts": {
