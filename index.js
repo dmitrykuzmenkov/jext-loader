@@ -8,7 +8,7 @@ module.exports = function (content) {
   var name = LoaderUtils.interpolateName(this, "[name]", {content: content});
 
   var pool = {};
-  new Compile(Parser.parseFromString(content), pool).build(file.split('.')[0]);
+  new Compile(Parser.parseFromString(content), pool).build(name);
 
   var pool_code = [];
   Object.keys(pool).forEach(function(template) {
