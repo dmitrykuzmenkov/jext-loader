@@ -10,7 +10,7 @@
     "type": "git",
     "url": "git+https://github.com/dmitrykuzmenkov/jext-loader.git"
   },
-  "author": "Dmitry Kuzmenkov <dmitry@wagh.ru> (http://dmitrykuzmenkov.ru)",
+  "author": "Dmitry Kuzmenkov <dmitry@wagh.ru>",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/dmitrykuzmenkov/jext-loader/issues"
