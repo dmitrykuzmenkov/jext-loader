@@ -1,0 +1,19 @@
+{
+  "name": "jext-loader",
+  "version": "1.0.0",
+  "description": "JEXT loader for webpack",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dmitrykuzmenkov/jext-loader.git"
+  },
+  "author": "Dmitry Kuzmenkov <dmitry@wagh.ru> (http://dmitrykuzmenkov.ru)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dmitrykuzmenkov/jext-loader/issues"
+  },
+  "homepage": "https://github.com/dmitrykuzmenkov/jext-loader#readme"
+}
