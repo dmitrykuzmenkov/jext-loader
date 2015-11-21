@@ -11,12 +11,12 @@ module.exports = function (content) {
   new Compile(Parser.parseFromString(content), pool).build(name);
 
   var pool_code = [];
-  Object.keys(pool).forEach(function(template) {
+  var template;
+  for (template in pool) {
     pool_code.push('"' + template + '":' + pool[template]);
-  });
+  }
 
-  return [
-    'var jext = require("jext")',
+  return 'var jext = require("jext");' +
     'module.exports = {' + pool_code.join(',') + '}'
-  ].join(';');
+  ;
 };
