@@ -1,7 +1,8 @@
 {
   "name": "jext-loader",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "JEXT loader for webpack",
+  "keywords": ["webpack", "jext", "loader"],
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
